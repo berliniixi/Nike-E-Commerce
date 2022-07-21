@@ -1,0 +1,36 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    /*background: #60a3bc !important;*/
+
+
+}
+.container{
+  margin-top: 60px;
+}
+.form-group{
+  background-image: url("../pictures/nike.jpg");
+  margin-top: auto;
+  margin-bottom: auto;
+  /*background: #6495ed;*/
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.register_btn{
+  padding-top: .50rem;
+}
+.fa{
+  color: red;
+}
+.ml-2{
+  color: darkblue;
+}

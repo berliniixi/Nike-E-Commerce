@@ -1,0 +1,163 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color :black;
+}
+.fa-heart{
+    color: red;
+}
+    .fa-heart:hover{
+        color: rgb(253, 80, 80);
+    }
+
+.fa-shopping-cart:hover{
+    color: gray;
+}
+.fa-user:hover{
+    color: gray;
+}
+
+.fa-sign-in-alt:hover{
+    color: gray;
+}
+
+
+#carouselExampleIndicators,#mens-shoes,#womens-shoes,.php-email-form{
+    margin-top: auto;
+    margin-bottom: auto;
+    background: lightgray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+  }
+
+  img{
+      border-radius: 15px;
+  }
+
+  /* contact style */
+
+  .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .php-email-form input, .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  .php-email-form input:focus, .php-email-form textarea:focus {
+    border-color: #0078ff;
+  }
+  .php-email-form input {
+    padding: 10px 15px;
+  }
+  .php-email-form textarea {
+    padding: 12px 15px;
+    margin-bottom: 0;
+  }
+  .php-email-form button[type=submit] {
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+  }
+  .php-email-form button[type=submit]:hover {
+    background: #3393ff;
+  }
+
+  /*------/ Ul resect /------*/
+.ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .list-ico {
+    line-height: 2;
+  }
+  .list-ico span {
+    color: #0078ff;
+    margin-right: 10px;
+  }
+
+  
+  /*------/ Socials /------*/
+.socials {
+    padding: 1.5rem 0;
+  }
+  .socials ul li {
+    display: inline-block;
+  }
+  .socials .ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+  }
+  .socials .ico-circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 25px 0;
+  background: gray;
+}
+footer .copyright {
+  margin-bottom: 0.3rem;
+}
+footer .credits {
+  margin-bottom: 0;
+}
+footer .credits a {
+  color: black;
+}

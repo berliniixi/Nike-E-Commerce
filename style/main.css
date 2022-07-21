@@ -1,0 +1,133 @@
+$blue: #4834D4;
+$red: #EB4D4B;
+
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    font-family: 'Exo 2',sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    color: #fff;
+}
+.logo{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.logo i {
+    padding:0 .5rem ;
+}
+
+.fa-bars {font-size: 3rem; z-index: 10000; cursor: pointer;}
+
+h1{
+    display: inline;
+}
+
+h1:hover{
+    text-decoration: none;
+}
+
+.search-container{
+    display: inline;
+    position: relative;
+}
+
+#search {
+    position: absolute;
+    top: -1.5rem; right: .8rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+    padding:0 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+
+
+}
+
+#search:hover,
+        :focus{
+        width: 25rem;
+}
+
+.fa-search{
+    position: absolute;
+    top: -.7rem;left: -3.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    color: #333;
+}
+
+    .fa-search:hover{
+        width: 25rem;
+    }
+
+.navbar{
+    position: fixed;
+    top: 0;left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, .9);
+    padding: 0;
+    display: none;
+}
+
+.navbar ul {
+    height: 100%;
+    width: 35rem;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    list-style: none;
+}
+
+.navbar li{
+    margin: .5rem 0;
+}
+
+.navbar a{
+    display: block;
+    height: 4rem;
+    width: 25rem;
+    background: #fff;
+    color: #333;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+a:hover{
+    text-decoration: none;
+    background: red;
+    letter-spacing: .5rem;
+}
+
+#home{
+    min-height: 100vh;
+    width: 100vw;
+    background: #333;
+}
